@@ -4,6 +4,11 @@
     src: url(../fonts/norwester-v1.2/norwester.otf);
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     height: 100%;
 }
@@ -15,6 +20,14 @@ body {
 #header {
     height: 100vh;
     margin: 0;
+    position: relative;
+}
+
+.header-content {
+    background-color: #146481;
+    color: white;
+    height: 100%;
+    position: relative;
 }
 
 .name {
@@ -28,13 +41,11 @@ body {
 }
 
 .title-intro {
-    margin-top: 25vh;
-}
-
-.header-content {
-    background-color: #146481;
-    color: white;
-    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 a.header-links {
@@ -43,6 +54,8 @@ a.header-links {
 
 #about {
     height: 100vh;
+    margin: 0;
+    position: relative;
 }
 
 #profile {
@@ -58,12 +71,75 @@ a.header-links {
     height: 100%;
 }
 
+.about-intro {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
 a.body-links {
     color: black;
 }
 
-.about-text {
-    margin: auto;
+ .about-description {
+    position: relative;
+    height: 100%;
+    background-color: #146481;
+    color: white;
+} 
+  
+ .about-text {
     text-align: justify;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-0%, -50%);
+    padding: 0 10vh;
+}    
+
+.indent {
     text-indent: 50px;
+}
+
+.second-nav {
+    margin: 0;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.body-links {
+    padding: 0 5px;
+}
+
+/* Mobile Broswer View */
+
+@media (max-width: 600px) {
+    .about-intro {
+        margin: 0;
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .second-nav {
+        margin: 0;
+        position: absolute;
+        bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        top: 187.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
