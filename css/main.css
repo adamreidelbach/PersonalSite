@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: norwester;
+    src: url(../fonts/norwester-v1.2/norwester.otf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+#header {
+    height: 100vh;
+    margin: 0;
+}
+
+.name {
+    font-size: 6em;
+    text-align: center;
+    font-family: norwester;
+}
+
+.description {
+    text-align: center;
+}
+
+.title-intro {
+    margin-top: 25vh;
+}
+
+.header-content {
+    background-color: #146481;
+    color: white;
+    height: 100%;
+}
+
+a.header-links {
+    color: white;
+}
+
+#about {
+    height: 100vh;
+}
+
+#profile {
+    background-image: url(../images/Profile.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;;
+}
+
+.about-content {
+    background-color: white;
+    color:black;
+    height: 100%;
+}
+
+a.body-links {
+    color: black;
+}
+
+.about-text {
+    margin: auto;
+    text-align: justify;
+    text-indent: 50px;
+}
