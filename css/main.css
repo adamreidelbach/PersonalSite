@@ -30,6 +30,13 @@ body {
     position: relative;
 }
 
+.tech-content {
+    background-color: #666666;
+    color: white;
+    height: 100%;
+    position: relative;
+}
+
 .name {
     font-size: 6em;
     text-align: center;
@@ -90,7 +97,7 @@ a.body-links {
     color: white;
 } 
   
- .about-text {
+.about-text, .tech-text {
     text-align: justify;
     margin: 0;
     position: absolute;
@@ -121,6 +128,46 @@ ul:not(.browser-default) {
 
 .body-links {
     padding: 0 5px;
+}
+
+.tech-intro {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tech-second-nav {
+    margin: 0;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a.tech-links {
+    color: white;
+}
+
+.tech-description {
+    position: relative;
+    height: 100%;
+    background-color: white;
+    color: black;
+    overflow-y: auto;
+}   
+
+.tech-icons {
+    padding: 8vh;
+    text-align: center;
+}
+
+.tech-svg {
+    width: 100px;
+    margin: 25px;
 }
 
 /* Mobile Broswer View */
