@@ -59,7 +59,7 @@ a.header-links {
     color: white;
 }
 
-#about {
+#about, #contact {
     height: 100vh;
     margin: 0;
     position: relative;
@@ -72,13 +72,13 @@ a.header-links {
     height: 100%;;
 }
 
-.about-content {
+.about-content, .contact-content {
     background-color: white;
     color:black;
     height: 100%;
 }
 
-.about-intro {
+.about-intro, .contact-intro {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -90,7 +90,7 @@ a.body-links {
     color: black;
 }
 
- .about-description {
+ .about-description, .contact-description {
     position: relative;
     height: 100%;
     background-color: #146481;
@@ -106,6 +106,14 @@ a.body-links {
     padding: 0 10vh;
     overflow: auto;
 }    
+
+.contact-text {
+    
+}
+
+.contact-items {
+    text-align: center;
+}
 
 .indent {
     text-indent: 50px;
@@ -173,7 +181,7 @@ a.tech-links {
 /* Mobile Broswer View */
 
 @media (max-width: 600px) {
-    .about-intro {
+    .about-intro, .tech-intro, .contact-intro {
         margin: 0;
         position: absolute;
         top: 150%;
