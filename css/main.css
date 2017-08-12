@@ -11,6 +11,14 @@ html {
 body {
   font-family: "Anonymous Pro", monospace; }
 
+a {
+  color: white; }
+
+.header-links {
+  margin-top: 15px;
+  margin-right: 30px;
+  text-align: right; }
+
 #header {
   height: 100vh;
   margin: 0;
@@ -27,6 +35,42 @@ body {
   text-align: center;
   font-family: norwester; }
 
+.projects-description {
+  position: relative;
+  height: 100%;
+  background-color: #146481;
+  color: white; }
+
+.project-intro {
+  margin: 0;
+  position: relative; }
+
+.proj-name {
+  font-size: 6em;
+  text-align: center;
+  font-family: norwester;
+  padding: 0 !important;
+  margin: 0;
+  line-height: 20vh; }
+
+.proj-image1 {
+  background-image: url(../images/getgit2.png);
+  height: 80vh;
+  padding: 0 !important;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover; }
+
+.proj-image2 {
+  background-image: url(../images/podcastFinder2.png);
+  height: 80vh;
+  padding: 0 !important;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover; }
+
 .description {
   text-align: center; }
 
@@ -37,10 +81,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%); }
 
-a.header-links {
-  color: white; }
-
-#about, #contact {
+#about, #contact, #projects, #tech {
   height: 100vh;
   margin: 0;
   position: relative; }
@@ -161,12 +202,13 @@ a.tech-links {
 
 /* Mobile Broswer View */
 @media (max-width: 600px) {
-  .about-intro, .tech-intro, .contact-intro {
+  .about-intro, .tech-intro, .contact-intro, .project-intro {
     margin: 0;
     position: absolute;
     top: 150%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 100; }
 
   .second-nav {
     margin: 0;
