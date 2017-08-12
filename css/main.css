@@ -12,7 +12,8 @@ body {
   font-family: "Anonymous Pro", monospace; }
 
 a {
-  color: white; }
+  color: white;
+  font-size: 1.15em; }
 
 .header-links {
   margin-top: 15px;
@@ -51,11 +52,11 @@ a {
   font-family: norwester;
   padding: 0 !important;
   margin: 0;
-  line-height: 20vh; }
+  line-height: 25vh; }
 
 .proj-image1 {
   background-image: url(../images/getgit2.png);
-  height: 80vh;
+  height: 75vh;
   padding: 0 !important;
   margin: 0;
   background-repeat: no-repeat;
@@ -64,7 +65,7 @@ a {
 
 .proj-image2 {
   background-image: url(../images/podcastFinder2.png);
-  height: 80vh;
+  height: 75vh;
   padding: 0 !important;
   margin: 0;
   background-repeat: no-repeat;
@@ -72,7 +73,8 @@ a {
   background-size: cover; }
 
 .description {
-  text-align: center; }
+  text-align: center;
+  font-size: 1.15em; }
 
 .title-intro {
   margin: 0;
