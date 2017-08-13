@@ -21,11 +21,6 @@ a {
   margin-right: 30px;
   text-align: right; }
 
-#header {
-  height: 100vh;
-  margin: 0;
-  position: relative; }
-
 .header-content, .tech-content {
   background-color: #146481;
   color: white;
@@ -84,7 +79,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%); }
 
-#about, #contact, #projects, #tech {
+#header, #about, #contact, #projects, #tech {
   height: 100vh;
   margin: 0;
   position: relative; }
