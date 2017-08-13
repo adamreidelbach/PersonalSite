@@ -201,6 +201,45 @@ a.tech-links {
 .extra-bottom {
   margin-bottom: 30px; }
 
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 25vh;
+  height: 75vh;
+  width: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #CE9918; }
+
+.overlay2 {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  top: 25vh;
+  height: 75vh;
+  width: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #CE9918; }
+
+.modal-container:hover .overlay1 {
+  opacity: 0.85; }
+
+.modal-container:hover .overlay2 {
+  opacity: 0.85; }
+
+.hover-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
 @media (max-width: 992px) {
   .about-intro {
     margin: 0;
