@@ -115,9 +115,7 @@ a.body-links {
 .about-text, .tech-text {
   text-align: justify;
   margin: 0 50px;
-  position: absolute;
-  top: 50%;
-  transform: translate(0%, -50%); }
+  top: 50%; }
 
 .contact-text {
   margin: 0;
@@ -196,6 +194,12 @@ a.tech-links {
 .tech-svg {
   width: 100px;
   margin: 25px; }
+
+.extra-top {
+  margin-top: 30px; }
+
+.extra-bottom {
+  margin-bottom: 30px; }
 
 @media (max-width: 992px) {
   .about-intro {
