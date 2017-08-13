@@ -3,7 +3,8 @@
   src: url(../fonts/norwester-v1.2/norwester.otf); }
 html, body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: black; }
 
 html {
   height: 100%; }
@@ -20,11 +21,6 @@ a {
   margin-right: 30px;
   text-align: right; }
 
-#header {
-  height: 100vh;
-  margin: 0;
-  position: relative; }
-
 .header-content, .tech-content {
   background-color: #146481;
   color: white;
@@ -36,7 +32,7 @@ a {
   text-align: center;
   font-family: norwester; }
 
-.projects-description {
+.projects-content {
   position: relative;
   height: 100%;
   background-color: #146481;
@@ -83,7 +79,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%); }
 
-#about, #contact, #projects, #tech {
+#header, #about, #contact, #projects, #tech {
   height: 100vh;
   margin: 0;
   position: relative; }
@@ -91,10 +87,10 @@ a {
 #profile {
   background-image: url(../images/Profile.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   height: 100%; }
 
-.about-content, .contact-content {
+.about-content, .contact-content, .project-content {
   background-color: white;
   color: black;
   height: 100%; }
@@ -113,16 +109,15 @@ a.body-links {
   position: relative;
   height: 100%;
   background-color: #146481;
-  color: white; }
+  color: white;
+  overflow-y: auto; }
 
 .about-text, .tech-text {
   text-align: justify;
-  margin: 0;
+  margin: 0 50px;
   position: absolute;
   top: 50%;
-  transform: translate(0%, -50%);
-  padding: 0 10vh;
-  overflow: auto; }
+  transform: translate(0%, -50%); }
 
 .contact-text {
   margin: 0;
@@ -152,7 +147,7 @@ a.body-links {
 .indent {
   text-indent: 50px; }
 
-.second-nav {
+.about-second-nav, .contact-second-nav, .tech-second-nav {
   margin: 0;
   position: absolute;
   bottom: 5%;
@@ -202,9 +197,8 @@ a.tech-links {
   width: 100px;
   margin: 25px; }
 
-/* Mobile Broswer View */
-@media (max-width: 600px) {
-  .about-intro, .tech-intro, .contact-intro, .project-intro {
+@media (max-width: 992px) {
+  .about-intro {
     margin: 0;
     position: absolute;
     top: 150%;
@@ -212,14 +206,57 @@ a.tech-links {
     transform: translate(-50%, -50%);
     z-index: 100; }
 
-  .second-nav {
+  .about-content {
+    background-color: white; }
+
+  .about-second-nav {
     margin: 0;
     position: absolute;
     bottom: 5%;
     display: flex;
     flex-direction: row;
-    top: 187.5%;
     left: 50%;
-    transform: translate(-50%, -50%); } }
+    transform: translate(-50%, -50%);
+    bottom: -95%;
+    z-index: 1000; }
+
+  .contact-second-nav {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 390%;
+    z-index: 1000; }
+
+  .contact-second-nav a.body-links {
+    color: black; }
+
+  .projects-content {
+    position: relative;
+    height: 100%;
+    background-color: white;
+    color: black; }
+
+  .proj-image1 {
+    height: 37.5vh;
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey; }
+
+  .proj-image2 {
+    height: 37.5vh; }
+
+  .contact-intro {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+  .connect {
+    text-align: center;
+    width: 11em;
+    font-size: 3em; } }
 
 /*# sourceMappingURL=main.css.map */
