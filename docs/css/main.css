@@ -1,0 +1,376 @@
+@font-face {
+  font-family: norwester;
+  src: url(../fonts/norwester-v1.2/norwester.otf); }
+html, body {
+  margin: 0;
+  padding: 0;
+  color: black; }
+
+.row {
+  margin-bottom: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: "Anonymous Pro", monospace; }
+
+a {
+  color: white;
+  font-size: 1.15em; }
+
+.header-links {
+  margin-top: 15px;
+  margin-right: 30px;
+  text-align: right; }
+
+.header-content, .tech-content {
+  background-color: #146481;
+  color: white;
+  height: 100%;
+  position: relative; }
+
+.name {
+  font-size: 6em;
+  text-align: center;
+  font-family: norwester; }
+
+.projects-content {
+  position: relative;
+  height: 100%;
+  background-color: #146481;
+  color: white; }
+
+.project-intro {
+  margin: 0;
+  position: relative; }
+
+.proj-name {
+  font-size: 6em;
+  text-align: center;
+  font-family: norwester;
+  padding: 0 !important;
+  margin: 0;
+  line-height: 30vh; }
+
+.proj-image1 {
+  background-image: url(../images/getgit2.png);
+  height: 70vh;
+  padding: 0 !important;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover; }
+
+.proj-image2 {
+  background-image: url(../images/podcastFinder2.png);
+  height: 70vh;
+  padding: 0 !important;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover; }
+
+.description {
+  text-align: center;
+  font-size: 1.15em; }
+
+.title-intro {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+#header, #about, #contact, #projects, #tech {
+  height: 100vh;
+  margin: 0;
+  position: relative; }
+
+#profile {
+  background-image: url(../images/Profile.jpg);
+  background-size: cover;
+  background-position: center top;
+  height: 100%; }
+
+.about-content, .contact-content, .project-content {
+  background-color: white;
+  color: black;
+  height: 100%; }
+
+.about-intro, .contact-intro {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%); }
+
+a.body-links {
+  color: black; }
+
+.about-description, .contact-description {
+  position: relative;
+  height: 100%;
+  background-color: #146481;
+  color: white;
+  overflow-y: auto; }
+
+.tech-text {
+  text-align: justify;
+  margin: 0 50px;
+  top: 50%; }
+
+.bio-text {
+  text-align: justify;
+  position: absolute;
+  margin: 0 100px;
+  top: 50%;
+  transform: translate(0%, -50%); }
+
+.contact-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.connect {
+  text-align: center;
+  width: 9em;
+  font-size: 3em; }
+
+.contact-image {
+  width: 50px !important;
+  margin: 1em; }
+
+.contact-items {
+  margin: 1em; }
+
+.contact-spacing {
+  margin-left: 2em; }
+
+.image-column {
+  text-align: center; }
+
+.indent {
+  text-indent: 50px; }
+
+.about-second-nav, .contact-second-nav, .tech-second-nav {
+  margin: 0;
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  left: 25%;
+  transform: translate(-50%, -50%); }
+
+ul:not(.browser-default) {
+  padding-left: 0;
+  list-style-type: none; }
+
+.body-links {
+  padding: 0 5px; }
+
+.tech-intro {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.tech-second-nav {
+  margin: 0;
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+a.tech-links {
+  color: white; }
+
+.tech-description {
+  position: relative;
+  height: 100%;
+  background-color: white;
+  color: black;
+  overflow-y: auto; }
+
+.tech-icons {
+  padding: 8vh;
+  text-align: center; }
+
+.tech-svg {
+  width: 100px;
+  margin: 25px; }
+
+.extra-top {
+  margin-top: 40px; }
+
+.extra-bottom {
+  margin-bottom: 40px; }
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 30vh;
+  height: 70vh;
+  width: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #CE9918; }
+
+.overlay2 {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  top: 30vh;
+  height: 70vh;
+  width: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #CE9918; }
+
+.modal-container:hover .overlay1 {
+  opacity: 0.85; }
+
+.modal-container:hover .overlay2 {
+  opacity: 0.85; }
+
+.modal-content h4 {
+  text-align: center;
+  width: 85%;
+  margin: auto; }
+
+.modal-content p {
+  text-align: justify;
+  width: 85%;
+  margin: auto;
+  padding-top: 15px; }
+
+.modal-link {
+  color: #337ab7;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  padding-top: 15px; }
+
+#modal1, #modal2 {
+  height: 75%;
+  width: 65%; }
+
+.hover-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+@media (max-width: 992px) {
+  .about-intro {
+    margin: 0;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100; }
+
+  .about-content {
+    background-color: white; }
+
+  .bio-text {
+    text-align: justify;
+    position: absolute;
+    margin: 0 50px;
+    top: 50%;
+    transform: translate(0%, -50%); }
+
+  .about-second-nav {
+    margin: 0;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -95%;
+    z-index: 1000; }
+
+  .contact-second-nav {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1000; }
+
+  .contact-second-nav a.body-links {
+    color: black; }
+
+  .projects-content {
+    position: relative;
+    height: 100%;
+    background-color: white;
+    color: black; }
+
+  .proj-image1 {
+    height: 37.5vh;
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey; }
+
+  .proj-image2 {
+    height: 37.5vh; }
+
+  .contact-intro {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+  .connect {
+    text-align: center;
+    width: 11em;
+    font-size: 3em; }
+
+  .overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 30vh;
+    height: 37.5vh;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #CE9918; }
+
+  .overlay2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 67.5vh;
+    height: 37.5vh;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #CE9918; }
+
+  .hover-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; } }
+
+/*# sourceMappingURL=main.css.map */
