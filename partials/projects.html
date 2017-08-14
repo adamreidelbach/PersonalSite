@@ -1,35 +1,57 @@
-<section id="projects" class="row col l6 s12">
+<section class="row col l6 s12">
+    <div id="projects">
     <div class="projects-content">
         <div class="project-intro">
             <h3 class="proj-name col s12">PROJECTS</h3>
         </div>
         <div class="proj-image-area">
             <a data-target='modal1' modal>
-                <img class="proj-image1 col l6 s12">
+                <div class="modal-container">
+                    <img class="proj-image1 col l6 s12">
+                    <div class="overlay1">
+                        <div class="hover-text">
+                            <h3>Get Git</h3>
+                            <p>A Beginner's Guide To Git</p>
+                        </div>
+                    </div>
+                </div>
             </a>
             <a data-target='modal2' modal>
-                <img class="proj-image2 col l6 s12">
+                <div class="modal-container">
+                    <img class="proj-image2 col l6 s12">
+                    <div class="overlay2">
+                        <div class="hover-text">
+                            <h3>Podcast Finder</h3>
+                            <p>Discover Something New</p>
+                        </div>
+                    </div>
+                </div>
             </a> 
         </div>
     </div>
     <!-- Modal Structure -->
     <div id="modal1" class="modal">
         <div class="modal-content">
-            <h4>Modal header</h4>
-            <p>A bunch of text</p>
+            <h4>Get Git</h4>
+            <p>Get Git is an application built to help new developers effectively and efficiently learn git. The user is guided through and then quizzed on several common scenarios that are highly applicable to working as a developer.</p>
+            <p>Technologies: AngularJS, JavaScript, JQuery, Materialize, Sass, and Angular-Materialize.</p>
+            <p class="center"><a href="https://adamreidelbach.github.io/Capstone-Front-End/" class="modal-link">adamreidelbach.github.io/Capstone-Front-End/</a></p>
         </div>
         <div class="modal-footer">
-            <a href="#!/projects" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+            <a href="#!/projects" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
         </div>
     </div>
     <!-- Modal Structure -->
     <div id="modal2" class="modal">
         <div class="modal-content">
-            <h4>Modal header</h4>
-            <p>A bunch of text</p>
+            <h4>Podcast Finder</h4>
+            <p>Podcast Finder is an application for user to search for podcasts using the Otto Radio API.</p>
+            <p>Technologies: Bootstrap, JavaScript, Browserify and Sass.</p>
+            <p class="center"><a href="https://adamreidelbach.github.io/podcastFinder/" class="modal-link">adamreidelbach.github.io/podcastFinder/</a></p>
         </div>
         <div class="modal-footer">
-            <a href="#!/projects" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+            <a href="#!/projects" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
         </div>
+    </div>
     </div>
 </section>

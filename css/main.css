@@ -6,6 +6,9 @@ html, body {
   padding: 0;
   color: black; }
 
+.row {
+  margin-bottom: 0; }
+
 html {
   height: 100%; }
 
@@ -48,11 +51,11 @@ a {
   font-family: norwester;
   padding: 0 !important;
   margin: 0;
-  line-height: 25vh; }
+  line-height: 30vh; }
 
 .proj-image1 {
   background-image: url(../images/getgit2.png);
-  height: 75vh;
+  height: 70vh;
   padding: 0 !important;
   margin: 0;
   background-repeat: no-repeat;
@@ -61,7 +64,7 @@ a {
 
 .proj-image2 {
   background-image: url(../images/podcastFinder2.png);
-  height: 75vh;
+  height: 70vh;
   padding: 0 !important;
   margin: 0;
   background-repeat: no-repeat;
@@ -112,10 +115,15 @@ a.body-links {
   color: white;
   overflow-y: auto; }
 
-.about-text, .tech-text {
+.tech-text {
   text-align: justify;
   margin: 0 50px;
+  top: 50%; }
+
+.bio-text {
+  text-align: justify;
   position: absolute;
+  margin: 0 50px;
   top: 50%;
   transform: translate(0%, -50%); }
 
@@ -197,6 +205,73 @@ a.tech-links {
   width: 100px;
   margin: 25px; }
 
+.extra-top {
+  margin-top: 40px; }
+
+.extra-bottom {
+  margin-bottom: 40px; }
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 30vh;
+  height: 70vh;
+  width: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #CE9918; }
+
+.overlay2 {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  top: 30vh;
+  height: 70vh;
+  width: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #CE9918; }
+
+.modal-container:hover .overlay1 {
+  opacity: 0.85; }
+
+.modal-container:hover .overlay2 {
+  opacity: 0.85; }
+
+.modal-content h4 {
+  text-align: center;
+  width: 85%;
+  margin: auto; }
+
+.modal-content p {
+  text-align: justify;
+  width: 85%;
+  margin: auto;
+  padding-top: 15px; }
+
+.modal-link {
+  color: #337ab7;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  padding-top: 15px; }
+
+#modal1, #modal2 {
+  height: 75%;
+  width: 65%; }
+
+.hover-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
 @media (max-width: 992px) {
   .about-intro {
     margin: 0;
@@ -208,6 +283,12 @@ a.tech-links {
 
   .about-content {
     background-color: white; }
+
+  .about-text {
+    text-align: justify;
+    margin: 25px 100px;
+    top: 50%;
+    overflow-y: auto; }
 
   .about-second-nav {
     margin: 0;
@@ -227,7 +308,6 @@ a.tech-links {
     flex-direction: row;
     left: 50%;
     transform: translate(-50%, 0%);
-    top: 390%;
     z-index: 1000; }
 
   .contact-second-nav a.body-links {
@@ -257,6 +337,39 @@ a.tech-links {
   .connect {
     text-align: center;
     width: 11em;
-    font-size: 3em; } }
+    font-size: 3em; }
+
+  .overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 25vh;
+    height: 37.5vh;
+    width: 50%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #CE9918; }
+
+  .overlay2 {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    top: 25vh;
+    height: 37.5vh;
+    width: 50%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #CE9918; }
+
+  .hover-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
