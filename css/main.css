@@ -123,7 +123,7 @@ a.body-links {
 .bio-text {
   text-align: justify;
   position: absolute;
-  margin: 0 50px;
+  margin: 0 100px;
   top: 50%;
   transform: translate(0%, -50%); }
 
@@ -284,11 +284,12 @@ a.tech-links {
   .about-content {
     background-color: white; }
 
-  .about-text {
+  .bio-text {
     text-align: justify;
-    margin: 25px 100px;
+    position: absolute;
+    margin: 0 50px;
     top: 50%;
-    overflow-y: auto; }
+    transform: translate(0%, -50%); }
 
   .about-second-nav {
     margin: 0;
@@ -344,9 +345,9 @@ a.tech-links {
     bottom: 0;
     left: 0;
     right: 0;
-    top: 25vh;
+    top: 30vh;
     height: 37.5vh;
-    width: 50%;
+    width: 100%;
     opacity: 0;
     transition: 0.5s ease;
     background-color: #CE9918; }
@@ -354,11 +355,11 @@ a.tech-links {
   .overlay2 {
     position: relative;
     bottom: 0;
-    left: 50%;
+    left: 0;
     right: 0;
-    top: 25vh;
+    top: 67.5vh;
     height: 37.5vh;
-    width: 50%;
+    width: 100%;
     opacity: 0;
     transition: 0.5s ease;
     background-color: #CE9918; }
