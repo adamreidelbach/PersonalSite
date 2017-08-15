@@ -125,7 +125,8 @@ a.body-links {
   position: absolute;
   margin: 0 100px;
   top: 50%;
-  transform: translate(0%, -50%); }
+  transform: translate(0%, -50%);
+  font-size: 1.2em; }
 
 .contact-text {
   margin: 0;
@@ -291,7 +292,7 @@ a.tech-links {
   .bio-text {
     text-align: justify;
     position: absolute;
-    margin: 0 100px;
+    margin: 0 50px;
     top: 50%;
     transform: translate(-1%, -50%); }
 
@@ -340,7 +341,7 @@ a.tech-links {
 
   .connect {
     text-align: center;
-    width: 11em;
+    width: 12em;
     font-size: 3em; }
 
   .overlay1 {
