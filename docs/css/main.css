@@ -385,12 +385,29 @@ a.tech-links {
     transform: translate(-50%, -50%); }
 
   .name {
-    font-size: 4em;
+    font-size: 5em;
     text-align: center;
     font-family: norwester; }
 
   .description {
     text-align: center;
-    font-size: 1em; } }
+    font-size: 1.25em; }
+
+  .connect {
+    text-align: center;
+    font-size: 2.75em;
+    margin: 0 auto; }
+
+  .contact-spacing {
+    margin-left: 1em;
+    margin-top: 3em; }
+
+  .contact-items {
+    margin: 0; }
+
+  .contact-image {
+    width: 30px !important;
+    margin: 0 0.5em 0 3em;
+    padding: 0 !important; } }
 
 /*# sourceMappingURL=main.css.map */
