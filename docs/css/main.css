@@ -371,5 +371,47 @@ a.tech-links {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center; } }
+@media (max-width: 600px) {
+  #header, #about, #contact, #tech {
+    height: 60vh;
+    margin: 0;
+    position: relative; }
+
+  #modal1, #modal2 {
+    height: 65%;
+    width: 85%; }
+
+  h4 {
+    font-size: 4.5em; }
+
+  .modal-footer a {
+    font-size: 2.5em; }
+
+  a {
+    color: white;
+    font-size: 2.5em; }
+
+  p {
+    font-size: 2.5em; }
+
+  .about-intro {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100; }
+
+  .about-content {
+    background-color: white; }
+
+  .name {
+    font-size: 9em;
+    text-align: center;
+    font-family: norwester; }
+
+  .description {
+    text-align: center;
+    font-size: 2.5em; } }
 
 /*# sourceMappingURL=main.css.map */
