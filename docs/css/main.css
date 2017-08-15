@@ -276,7 +276,7 @@ a.tech-links {
   .about-intro {
     margin: 0;
     position: absolute;
-    top: 150%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 100; }
@@ -287,9 +287,9 @@ a.tech-links {
   .bio-text {
     text-align: justify;
     position: absolute;
-    margin: 0 50px;
+    margin: 0 100px;
     top: 50%;
-    transform: translate(0%, -50%); }
+    transform: translate(-1%, -50%); }
 
   .about-second-nav {
     margin: 0;
@@ -299,8 +299,8 @@ a.tech-links {
     flex-direction: row;
     left: 50%;
     transform: translate(-50%, -50%);
-    bottom: -95%;
-    z-index: 1000; }
+    bottom: 5%;
+    z-index: 100; }
 
   .contact-second-nav {
     margin: 0;
@@ -308,8 +308,7 @@ a.tech-links {
     display: flex;
     flex-direction: row;
     left: 50%;
-    transform: translate(-50%, 0%);
-    z-index: 1000; }
+    transform: translate(-50%, 0%); }
 
   .contact-second-nav a.body-links {
     color: black; }
