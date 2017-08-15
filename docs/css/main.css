@@ -17,7 +17,7 @@ body {
 
 a {
   color: white;
-  font-size: 1.25em; }
+  font-size: 1.35em; }
 
 .header-links {
   margin-top: 15px;
@@ -31,7 +31,7 @@ a {
   position: relative; }
 
 .name {
-  font-size: 6em;
+  font-size: 6.2em;
   text-align: center;
   font-family: norwester; }
 
@@ -73,7 +73,7 @@ a {
 
 .description {
   text-align: center;
-  font-size: 1.15em; }
+  font-size: 1.35em; }
 
 .title-intro {
   margin: 0;
@@ -243,14 +243,15 @@ a.tech-links {
 
 .modal-content h4 {
   text-align: center;
-  width: 85%;
+  width: 75%;
   margin: auto; }
 
 .modal-content p {
   text-align: justify;
-  width: 85%;
+  width: 75%;
   margin: auto;
-  padding-top: 15px; }
+  padding-top: 15px;
+  font-size: 1.2em; }
 
 .modal-link {
   color: #337ab7;
@@ -260,8 +261,8 @@ a.tech-links {
   padding-top: 15px; }
 
 #modal1, #modal2 {
-  height: 75%;
-  width: 65%; }
+  height: 85%;
+  width: 85%; }
 
 .hover-text {
   color: white;
@@ -283,6 +284,9 @@ a.tech-links {
 
   .about-content {
     background-color: white; }
+
+  p {
+    font-size: 1.35em; }
 
   .bio-text {
     text-align: justify;
@@ -371,47 +375,5 @@ a.tech-links {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center; } }
-@media (max-width: 600px) {
-  #header, #about, #contact, #tech {
-    height: 60vh;
-    margin: 0;
-    position: relative; }
-
-  #modal1, #modal2 {
-    height: 65%;
-    width: 85%; }
-
-  h4 {
-    font-size: 4.5em; }
-
-  .modal-footer a {
-    font-size: 2.5em; }
-
-  a {
-    color: white;
-    font-size: 2.5em; }
-
-  p {
-    font-size: 2.5em; }
-
-  .about-intro {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100; }
-
-  .about-content {
-    background-color: white; }
-
-  .name {
-    font-size: 9em;
-    text-align: center;
-    font-family: norwester; }
-
-  .description {
-    text-align: center;
-    font-size: 2.5em; } }
 
 /*# sourceMappingURL=main.css.map */
