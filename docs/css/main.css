@@ -120,13 +120,23 @@ a.body-links {
   margin: 0 50px;
   top: 50%; }
 
-.bio-text {
+.bio-text1 {
   text-align: justify;
-  position: absolute;
-  margin: 0 100px;
+  position: relative;
+  margin: 0 75px;
   top: 50%;
-  transform: translate(0%, -50%);
-  font-size: 1.2em; }
+  transform: translate(0%, 8%);
+  font-size: 1.2em;
+  z-index: 1000; }
+
+.bio-text2 {
+  text-align: justify;
+  position: relative;
+  margin: 0 75px 25px 75px;
+  top: 50%;
+  transform: translate(0%, 18%);
+  font-size: 1.2em;
+  z-index: 1000; }
 
 .contact-text {
   margin: 0;
@@ -408,6 +418,27 @@ a.tech-links {
   .contact-image {
     width: 30px !important;
     margin: 0 0.5em 0 3em;
-    padding: 0 !important; } }
+    padding: 0 !important; }
 
-/*# sourceMappingURL=main.css.map */
+  .header-links {
+    margin-top: 15px;
+    margin-right: 5px;
+    text-align: right; }
+
+  .bio-text1 {
+    text-align: justify;
+    position: relative;
+    margin: 0 30px 25px 25px;
+    top: 50%;
+    transform: translate(0%, 8%);
+    font-size: 1.2em;
+    z-index: 1000; }
+
+  .bio-text2 {
+    text-align: justify;
+    position: relative;
+    margin: 0 30px 25px 30px;
+    top: 50%;
+    transform: translate(0%, 18%);
+    font-size: 1.2em;
+    z-index: 1000; } }
